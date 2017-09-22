@@ -6,7 +6,9 @@
 
 1、全局安装nw-gyp模块
 npm install -g nw-gyp
+
 npm config set python python2.7
+
 npm config set msvs_version 2015
 
 
