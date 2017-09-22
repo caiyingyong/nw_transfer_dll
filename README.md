@@ -1,6 +1,8 @@
 /**************************************************
+
 *************** nw环境下调用本地dll文件  **********
-***************************************************/  
+
+***************************************************/
 
 1、全局安装nw-gyp模块
 npm install -g nw-gyp
@@ -15,6 +17,7 @@ npm config set msvs_version 2015
 4、npm install ffi
 
 ///////////////target：nw的版本
+
 ///////////////arch：系统位数（x64或ia32）
 
 5、cd node_modules/ref （修改配置）
@@ -22,3 +25,5 @@ nw-gyp rebuild --target=0.14.6 --arch=ia32
 
 6、cd node_modules/ffi（修改配置）
 nw-gyp rebuild --target=0.14.6 --arch=ia32
+
+7、打包.nw，nw.exe运行。
