@@ -5,6 +5,7 @@
 ***************************************************/
 
 1、全局安装nw-gyp模块
+
 npm install -g nw-gyp
 
 npm config set python python2.7
