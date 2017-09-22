@@ -1,0 +1,24 @@
+{
+  "name": "nw_transfer_dll",
+  "version": "0.0.1",
+  "description": "nw环境下调用本地dll文件",
+  "main": "index.html",
+  "scripts": {
+    "install": "nw-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiyingyong/nw_transfer_dll"
+  },
+  "keywords": [
+    "nw",
+    "dll"
+  ],
+  "author": "caiyingyong",
+  "gypfile": true,
+  "homepage": "https://github.com/caiyingyong/nw_transfer_dll",
+  "dependencies": {
+    "nan": "^2.0.0",
+    "bindings": "~1.2.1"
+  }
+}
