@@ -1,6 +1,6 @@
 {
   "targets": [{
-    "target_name": "system_idle_time",
+    "target_name": "nw_transfer_dll",
     "sources": [
       "src/module.cc"
     ],
