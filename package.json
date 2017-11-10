@@ -4,7 +4,7 @@
   "description": "nw环境下调用本地dll文件",
   "main": "index.html",
   "scripts": {
-    "install": "nw-gyp rebuild"
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
